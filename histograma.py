@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-img_bgr = cv.imread("dielit.png")
+img_bgr = cv.imread("Aquelarre.jpg")
 
 b = img_bgr[:, :, 0]
 g = img_bgr[:, :, 1]
